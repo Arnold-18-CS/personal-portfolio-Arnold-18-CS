@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Me - My Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">About Me</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-  <section>
-    <h1>About Me</h1>
-    <p>A brief introduction about myself, my background, skills, and passions.</p>
-    <!-- Students can add more personal details here -->
-  </section>
+    <section>
+      <h1>About Me</h1>
+      <div style="display: flex; align-items: flex-start; gap: 2rem">
+        <img
+          src="profile-photo.png"
+          alt="Profile photo of Arnold"
+          style="width: 180px; border-radius: 8px"
+        />
+        <div>
+          <h2>Background & Education</h2>
+          <p>
+            I am currently a Computer Science student with a strong interest in
+            software development and technology. My academic journey has
+            equipped me with a solid foundation in programming, problem-solving,
+            and teamwork.
+          </p>
 
-</body>
+          <h2>Skills & Technologies</h2>
+          <ul>
+            <li>Programming Languages: Python, JavaScript, Java</li>
+            <li>Web Development: HTML, CSS, React</li>
+            <li>Tools: Git, VS Code, Figma</li>
+          </ul>
+
+          <h2>Hobbies & Career Goals</h2>
+          <p>
+            Outside of coding, I enjoy playing chess, hiking, and exploring new
+            tech gadgets. My passion is to become a full-stack developer and
+            contribute to innovative projects that make a positive impact.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
